@@ -1,0 +1,104 @@
+/* Body */
+body {
+  background-color: #0d1018;
+  padding-left: 170px;
+  padding-top: 170px;
+}
+
+/* Content */
+#heading {
+  color: ghostwhite;
+  line-height: 60px;
+  font-size: 21px;
+  margin-bottom: -12px;
+}
+
+#pagh {
+  color: rgb(139, 148, 158);
+  line-height: 33px;
+  font-size: 20px;
+}
+
+.content {
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+/* Button */
+.int .myLink {
+  margin-top: 9px;
+  width: 215px;
+  height: 50px;
+  border-radius: 15px;
+  background-color: rgb(238, 238, 238);
+  border: none;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.int #contBox {
+  position: absolute;
+  transform: translate(24px, -12px);
+  font-size: 20px;
+  color: #0f121a;
+  line-height: 32px;
+  font-weight: 650;
+  font-family: system-ui;
+}
+
+.int .myLink:hover {
+  background-color: rgba(255, 255, 255, 0.835);
+}
+
+/* Arrow-object */
+.int #arrow {
+  width: 8px;
+  height: 8px;
+  rotate: 45deg;
+  margin-left: 170px;
+  translate: 0 1px;
+  border: 2px solid black;
+  border-radius: 1px;
+  border-left: none;
+  border-bottom: none;
+}
+
+/* Arrow-animation */
+#arrow {
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  left: 0;
+}
+
+.myLink:hover #arrow {
+  left: 4px;
+}
+
+
+/* Nhấp chuột - CSS tricks 1 */
+.int .myLink:hover {
+  cursor: pointer;
+}
+/* CSST 1 */
+
+/* Image */
+.circle-image {
+  position: relative;
+  width: 360px;
+  height: 360px;
+  border-radius: 50%;
+  margin-left: 21cm;
+  margin-top: -8.8cm;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.737),
+    1px 1px 200px rgba(195, 195, 195, 0.297);
+}
+
+.circle-image img {
+  position: absolute;
+  top: 220px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: auto;
+}
