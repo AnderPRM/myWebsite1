@@ -138,7 +138,7 @@ nav,
 
 /* Slider */
 #slider {
-  background-image: url("/assets/img/band1.jpg");
+  background-image: url("./assets/img/band1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
